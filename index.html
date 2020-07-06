@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  </head>
+  
+  <body>
+
+    <div class="site-pusher">
+    <!-- Navigation Section-->
+    <header>
+        <div class="logo">
+            <a href="#"><img src="Images/logo.png" width="80" height="80" alt="Logo"/></a>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#royal-family">Royal Family </a> </li>
+                <li><a href="#royal-assets">Royal Assets</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav> 
+
+    </header> 
+
+    <!-- Hero Section -->
+    <div class=heros>
+        <div class="image-fond"> </div>
+        <div class="text-heros">
+            <h1>
+            Welcome to the Royal Kingdom of Colchis
+            </h1> 
+        </div>
+    </div>
+        
+    
+
+    <!--About-->
+    <div id="about">
+        <h2>About</h2>
+        <p>Our kingdom is very happy to welcome you to our first web site.<br/>
+        We hope it will allow you to get to know us better and come to visit our land.<br/>
+        For any questions or requests, contact us with the contact form provided for this purpose. We are happy to answer you quickly.<br/>
+        <span>Seen you soon on Colchis ! Have a good trip !</span>
+    </p>
+    </div>
+    
+    <!-- Images and text aligned next to each other -->
+    <div id="royal-family">
+        <div class="presentation-famille">
+        <h2>
+        The Royal Family
+        </h2>
+        <p>
+        Here is a small and superficial overview of the royal family. <br/>
+        To know the personalities in more detail, do not hesitate to come and meet them.
+        </p>
+        </div>
+
+        <div class="photo-de-famille">
+            <div class="roi">
+                <img src="Images/king.jpg" alt="King Aeetes"/>
+                <h3>King Aeetes</h3>
+            </div>
+
+            <div class="princesse">
+                <img src="Images/princess.jpg" alt="Princess Medeas"/>
+                <h3>Princess Medeas</h3>
+            </div>
+
+            <div class="reine">
+                <img src="Images/queen.jpg" alt="Queen Idgyia"/>
+                <h3>Queen Idgyia</h3>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Kingdom's Royal Assets or Sporting Results table -->
+    <div id="royal-assets">
+
+        <div class="assets">
+
+            <div class="text-assets">
+                <h2>
+                The Kingdom's Royal Assets
+                </h2>
+                <p>
+                    Our island is wonderful and has many advantages. <br/>
+                    If you want to invest or just visit and take advantage of the many assets of our kingdom, here is a summary.
+                </p>   
+            </div>
+
+            <div class="table-assets">
+            <table>
+                    <thead>
+                        <tr>
+                            <th>Asset type</th>
+                            <th>Number of assets</th>
+                            <th>Worth on average</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bar</td>
+                            <td>26</td>
+                            <td>5,000</td>
+                        </tr>
+                        <tr>
+                            <td>Museum</td>
+                            <td>2</td>
+                            <td>12,000</td>
+                        </tr>
+                        <tr>
+                            <td>Private beach</td>
+                            <td>4</td>
+                            <td>6,000</td>
+                        </tr>
+                        <tr>
+                            <td>Restaurant</td>
+                            <td>15</td>
+                            <td>22,000</td>
+                        </tr>
+                        <tr>
+                            <td>Swimming Pool</td>
+                            <td>3</td>
+                            <td>15,000</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>                   
+            </div>
+
+            <i class="fas fa-glass-cheers fa-2x"></i>
+            
+            
+        </div>
+
+
+        <div class="sports">
+
+            <div class="text-sports">
+                
+                <h2>
+                    The results of the last sports tournament
+                </h2>
+                
+                <p>
+                    Regularly, the Kingdom of Colchis organizes sports tournaments. <br/>
+                    Last month the javelin tournament was a very big event. More than 3000 people came to see our 5 participants compete.<br/>
+                    If you missed the last event, here are the results
+                </p> 
+                <input type="button" id="event-btn" value="Last results"/>
+                
+            </div>
+
+            <div id="table-sports">
+                <h3>Javelin Event Results</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Points</th>
+                            <th>Player</th>
+                            <th>Family Name</th>
+                        </tr>   
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>94</td>
+                            <td>Sir John</td>
+                            <td>John of Elderworth</td>
+                        </tr>  
+                        <tr>
+                            <td>92</td>
+                            <td>Lady Omphale</td>
+                            <td>Omphale of Lydie</td>
+                        </tr>
+                        <tr>
+                            <td>85</td>
+                            <td>Lady Antinéa</td>
+                            <td>Antinéa Maurras</td>
+                        </tr>
+                        <tr>
+                            <td>79</td>
+                            <td>Sir Pollux</td>
+                            <td>Pollux of Pélias</td>
+                        </tr>
+                        <tr>
+                            <td>65</td>
+                            <td>Lady Arthémise</td>
+                            <td>Arthémise of Halicarnasse </td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-sport">
+                <p>
+                The next event will take place on 15th July.<br/>
+                <span>Come and join us for this fun adventure ! </span> 
+                </p>
+            </div>            
+
+        </div>
+        
+
+        
+        
+        
+    </div>
+
+    <!-- Contact the Royal Kingdom -->
+    <div id="contact">
+        <div class="image-contact"></div>
+        <div class="text-contact">
+            <h2>
+            Contact the Royal Kingdom
+            </h2>
+            <p>
+            Fill in the form below to contact the Royal Kingdom
+            </p>
+        </div>
+        
+
+        <div class="formulaire-contact">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name"/>
+                
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail" placeholder="Enter your email adress"/>
+                
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="10" cols="10" placeholder="Message"></textarea>
+
+            <input type="submit" id="submit" class="submit btn-block" value="Submit" />
+        </div>
+        
+    </div>
+
+    <Footer>
+        <h3>Find us on social medias</h3>
+        <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-3x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-3x"></i></a>
+        
+
+    </Footer>
+    </div>
+
+   
+
+    <!-- Connect the Javascript file -->
+    <script src="script.js"></script>
+  </body>
+</html>

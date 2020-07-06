@@ -1,0 +1,445 @@
+body
+{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+h1
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 5em;
+    color: white;
+}
+
+h2
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 3em;
+    color: 	rgb(27, 97, 100)
+}
+
+h3
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 2.3em;
+    color: 	rgb(27, 97, 100)
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+span
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+    color: 	rgb(27, 97, 100);
+    line-height: 3em;
+}
+
+/*Header*/
+
+header
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{
+    background-repeat:no-repeat;
+    position: relative;
+    margin-top: 30px;
+    margin-left:30px;
+    width:45%;
+    float:left;
+}
+
+.menu
+{
+    width:55%;
+    float:right;
+}
+
+
+.menu ul li
+{
+    text-decoration:none;
+    display:inline-block;
+    padding:30px;
+    font-size: 2em ;
+    font-family: 'Satisfy', cursive;
+}
+
+li a
+{
+    color: rgb(45, 55, 31);
+    text-decoration: none;
+}
+
+a:hover
+{
+    font-weight: bold;
+}
+
+#about::after,
+#royal-family::after
+{
+    content: "";
+    display: block;
+    width: 3%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 1);
+    position:absolute; 
+    text-align: center;
+    left:49%
+}
+
+/*Hero*/
+
+.heros
+{
+    min-width:100%;
+    min-height:500px
+}
+
+.image-fond
+{
+    background-image: url(Images/background.jpg);
+    background-position: center;
+    background-attachment:cover;
+    position: absolute;
+    width:100%;
+    height:500px;
+    z-index:0;
+}
+
+.text-heros
+{
+    position:relative;
+    z-index:1;
+    padding: 50px;
+}
+
+/*About*/
+
+#about
+{
+    margin: 50px;
+    text-align: center;
+}
+
+
+
+/*Royal Family*/
+
+#royal-family
+{
+    margin:50px;
+    text-align: center;
+}
+
+.presentation-famille
+{
+    margin-bottom: 40px;
+}
+
+.photo-de-famille
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+} 
+
+.roi
+{
+    width: 33%;
+}
+
+.princesse
+{
+    width: 33%;
+}
+
+
+.reine
+
+{
+    width: 33%;
+}
+
+.photo-de-famille img
+{
+    width: 80%;
+    height: auto;
+}
+
+/*Royal Assets*/
+
+#royal-assets
+{
+    margin:50px;
+    text-align: center;
+    
+}
+
+.text-assets
+{
+    margin-bottom: 50px;
+}
+
+table 
+{
+    width: 50%;    
+    border: 3px solid rgb(108, 167, 157) ;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+th
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+    color:rgb(45, 55, 31);
+    border: 1px solid rgb(108, 167, 157) ;
+
+}
+
+td
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    border: 1px solid rgb(108, 167, 157) ;
+
+}
+
+#table-sports
+{
+    display:none;
+}
+
+#event-btn
+{
+    color:rgb(13, 98, 103);
+    width: 20%;
+    height: 3.7rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.9em;
+    border-radius:none;
+    border:rgb(13, 98, 103);
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+#event-btn:hover
+{
+    background-color: rgb(13, 98, 103);
+    color:white;
+}
+
+
+#royal-assets .fas
+{
+    color:rgb(13, 98, 103) ;
+}
+  
+
+/*Contact*/
+
+.image-contact
+{
+    background-image: url(Images/background.jpg);
+    min-width: 100%;
+    min-height: 1300px ;
+    position: absolute;
+    z-index:0
+}
+
+#contact
+{
+    min-width:100%;
+    min-height:900px;    
+}
+
+.text-contact
+{
+    text-align: center;
+    margin: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+#contact h2
+{
+    color: white;
+    padding-top: 30px;
+}
+
+#contact p
+{
+    color: white;
+}
+
+.formulaire-contact
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+    margin: auto;
+    position: relative;
+    z-index:1;
+}
+
+input, 
+textarea
+{
+    font-family: 'Roboto', sans-serif;
+    border: white 1px solid;
+    color:white;
+    font-size:1rem;
+    outline : none;
+    padding:1rem;
+    margin: 20px;
+    background: none;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+label
+{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    color:white ;
+}
+
+.submit
+{
+    background-color: white;
+    color:rgb(13, 98, 103);
+    width: 30%;
+    height: 3.7rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.9em;
+    border-radius:none;
+    border:none;
+    margin-top: 20px;
+    margin-left: 65%;
+}
+
+.submit:hover
+{
+    opacity: .7;
+    
+}
+
+
+/*Footer*/
+
+footer
+{
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 150px;
+}
+
+footer::before
+{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 1px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    left:45%;
+}
+
+footer h3
+{
+    color:white;
+    font-weight: lighter;
+}
+
+.fab
+{
+    color:white;
+    margin: 0 30px 30px 30px;
+}
+
+.fab:hover
+{
+    opacity: .7;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:1480px){
+
+.logo
+{
+    width:10%;
+}
+
+.menu
+{
+    width: 90%;
+    left:0;    
+}
+
+}
+
+@media screen and (max-width:950px){
+
+.menu ul li
+{
+    display:block;
+    margin:10px;
+    padding:0;
+}
+
+.menu
+{
+    width: 100%;
+}
+
+
+.logo
+{
+    display: none;
+    width: 0%;
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+#event-btn
+{
+    width: 50%;
+}
+
+table
+{
+    width:90%;
+}
+
+.formulaire-contact
+{
+    width: 80%;
+}
+
+}
+
