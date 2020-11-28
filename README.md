@@ -1,4 +1,4 @@
-# Projet d'admission WildCodeSchool
+# Projet d'admission Wild Code School
 
-Pour avoir un accès rapide au site :
-https://alinedenizot.github.io/WildCodeSchool_projet/
+Site réalisé pour test technique.
+
