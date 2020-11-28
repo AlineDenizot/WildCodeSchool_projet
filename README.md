@@ -1,4 +1,4 @@
 # Projet d'admission Wild Code School
 
-Site réalisé pour test technique.
+Site one-page réalisé pour test technique.
 
